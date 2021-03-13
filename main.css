@@ -120,8 +120,8 @@ main {
 }
 .red {
 	background-color: var(--red);
-	height: 200px;
-	width: 200px;
+	height: 15vw;
+	width: 15vw;
 	grid-column: 1 / 2;
 	grid-row: 1 / 2;
 	border-top: 5px solid black;
@@ -131,8 +131,8 @@ main {
 }
 .blue {
 	background-color: var(--blue);
-	height: 200px;
-	width: 200px;
+	height: 15vw;
+	width: 15vw;
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
 	border-top: 5px solid black;
@@ -142,8 +142,8 @@ main {
 }
 .yellow {
 	background-color: var(--yellow);
-	height: 200px;
-	width: 200px;
+	height: 15vw;
+	width: 15vw;
 	grid-column: 1 / 2;
 	grid-row: 2 / 3;
 	border-bottom: 5px solid black;
@@ -153,8 +153,8 @@ main {
 }
 .green {
 	background-color: var(--green);
-	height: 200px;
-	width: 200px;
+	height: 15vw;
+	width: 15vw;
 	grid-column: 2 / 3;
 	grid-row: 2 / 3;
 	border-bottom: 5px solid black;
