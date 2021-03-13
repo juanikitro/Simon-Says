@@ -14,18 +14,38 @@
 			rel="stylesheet"
 			href="../../Platzi/Archivos de cursos/Desarrollo web/Curso HTML y CSS/normalize.css"
 		/>
+		<script
+			src="https://kit.fontawesome.com/ebb8a9145f.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
-		<div class="gameboard">
-			<div id="azul" class="color azul" data-color="azul"></div>
-			<div id="violeta" class="color violeta" data-color="violeta"></div>
-			<div id="rojo" class="color rojo" data-color="rojo"></div>
-			<div id="verde" class="color verde" data-color="verde"></div>
-			<button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">
-				Start!
-			</button>
-		</div>
+		<header>
+			<div class="title"><h1>Simon says...</h1></div>
+			<div class="social-media">
+				<div class="twitter">
+					<a target="_blank" href="https://twitter.com/JuaniKitro"
+						><i class="fab fa-twitter"></i
+					></a>
+				</div>
+				<div class="github"><a target="_blank" href="https://github.com/JuaniKitro"><i class="fab fa-github"></i></a></i></div>
+			</div>
+		</header>
+		<main>
+			<article class="gameboard">
+				<div id="blue" class="color blue" data-color="blue"></div>
+				<div id="red" class="color red" data-color="red"></div>
+				<div id="yellow" class="color yellow" data-color="yellow"></div>
+				<div id="green" class="color green" data-color="green"></div>
+				<button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">
+					Start!
+				</button>
+			</article>
+		</main>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 		<script src="gamepad.js"></script>
+		<footer class="footer">
+			<p>Made with <3</p>
+		</footer>
 	</body>
 </html>
